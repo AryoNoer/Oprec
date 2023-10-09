@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ['index.html', 'biro.html'],
   theme: {
     extend: {
       colors: {
@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
       sans: ['Montserrat', 'sans-serif'],
-     serif: ['Playfair', 'serif'],
+      serif: ['Playfair', 'serif'],
 
 }
     },
