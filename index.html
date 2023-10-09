@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair:opsz,wght@5..1200,400;5..1200,500;5..1200,600&family=Poppins:wght@500&family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="src/fikti-logo.png" alt="Logo" class="w-10 h-10 mr-2" />
+          <span class="text-black font-semibold text-xl">BEM FIKTI UG</span>
+        </div>
+
+        <!-- Navigasi -->
+        <ul class="hidden md:flex space-x-4">
+          <li><a href="#visi-misi" class="text-black">Visi Misi</a></li>
+          <li><a href="#persyaratan" class="text-black">Persyaratan</a></li>
+          <li><a href="#biro" class="text-black">Biro</a></li>
+          <li>
+            <a href="#alur-pendaftaran" class="text-black">Alur Pendaftaran</a>
+          </li>
+        </ul>
+
+        <!-- Tombol Daftar -->
+        <a
+          href="#daftar"
+          class="bg-orange text-white hover:bg-amber-600 text-sm font-semibold py-2 px-4 rounded-md transition duration-300"
+          >Daftar</a
+        >
+
+        <!-- Tombol Menu untuk Mode Responsif -->
+        <button class="md:hidden text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+              class="bg-black"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Menu Responsif (Hanya muncul di mode responsif) -->
+      <div class="md:hidden hidden">
+        <ul class="mt-2 space-y-2">
+          <li><a href="#visi-misi" class="text-white">Visi Misi</a></li>
+          <li><a href="#persyaratan" class="text-white">Persyaratan</a></li>
+          <li><a href="#biro" class="text-white">Biro</a></li>
+          <li>
+            <a href="#alur-pendaftaran" class="text-white">Alur Pendaftaran</a>
+          </li>
+          <li>
+            <a
+              href="#daftar"
+              class="text-white bg-blue-500 hover:bg-blue-400 text-sm font-semibold py-2 px-4 rounded-full transition duration-300"
+              >Daftar</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- section 1 -->
+    <section class="bg-navy bg-hero bg-cover bg-center py-16 px-4">
+      <div class="container mx-auto flex items-center">
+        <!-- Elemen H1 di Sisi Kiri -->
+        <div class="w-full md:w-1/2">
+          <h1 class="text-4xl font-semibold text-white">
+            Open recruitment staff
+          </h1>
+          <p class="text-lg text-orange font-semibold mt-4">
+            BEM FIKTI UG 2023 <br />#untukFIKTIyangSERASI
+          </p>
+        </div>
+
+        <!-- Gambar di Sisi Kanan -->
+        <div class="w-full md:w-1/2 mt-4 md:mt-0">
+          <img src="src/header.png" alt="Hero Image" class="w-full h-auto" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="bg-navy py-16 px-4">
+      <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <!-- Elemen H1 di Sisi Kiri -->
+        <div class="w-full md:w-1/2 mx-4 my-5 md:my-0">
+          <h1 class="text-4xl text-center font-semibold text-white">Visi</h1>
+          <p
+            class="border-4 rounded-md border-orange shadow-xl bg-[#D9D9D9] p-6 md:p-10 text-lg text-black font-semibold mt-4"
+          >
+            Menjadikan Badan Eksekutif yang terbuka dan berorientasi kepada
+            kebutuhan serta keinginan mahasiswa FIKTI untuk membangun hubungan
+            yang erat antara Badan Eksekutif dengan mahasiswa agar dapat
+            menciptakan lingkungan kampus yang inklusif dan progresif.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 mx-4 my-5 md:my-0">
+          <h1 class="text-4xl text-center font-semibold text-white">Misi</h1>
+          <p
+            class="border-4 rounded-md border-orange shadow-xl bg-[#D9D9D9] p-6 md:p-10 text-lg text-black font-semibold mt-4"
+          >
+            Memperkuat hubungan yang erat antara Badan Eksekutif dan mahasiswa
+            FIKTI, dengan mendengarkan dan memahami kebutuhan serta keinginan
+            Mahasiswa. Berkomitmen untuk menyikapi, mengawal, dan
+            mengadvokasikan peningkatan progresif dalam segala aspek kehidupan
+            kampus. Meningkatkan performa BEM FIKTI UG dengan penggunaan OKR
+            (Objective Key Result) untuk mencapai efisiensi yang lebih baik guna
+            memperbaiki kualitas kinerja fungsionaris terhadap pelaksanaan
+            program kerja.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+    <section class="bg-navy py-16 px-4">
+      <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <div class="w-full mx-4 my-5 md:my-0">
+          <h1 class="text-3xl font-semibold text-white text-center">
+            Let’s Find the Experience In Organization
+          </h1>
+          <p class="md:p-6 md:px-10 text-lg text-white font-semibold mt-4">
+            Menjadikan Badan Eksekutif yang terbuka Open recruitment staff BEM
+            FIKTI UG 2023 akhirnya resmi dibuka! Buat kalian yang mau nambah
+            relasi, eksplorasi bakat, dan berkontribusi. Selain itu, siapa tahu
+            juga bisa dapet tambatan hati, kan? Jadi, langsung aja join bareng
+            kita di BEM FIKTI UG! Buat yang penasaran, yuk cek dulu cara daftar
+            biar nggak ketinggalan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- section 4 -->
+    <section class="bg-navy py-16 px-4">
+      <div class="w-full my-5 md:my-0">
+        <div>
+          <img
+            src="src/Terms and Conditions.png"
+            alt="logo-pendaftaran"
+            class="w-30 h-30 mx-auto"
+          />
+        </div>
+        <div class="mx-auto mb-10 w-full">
+          <h2 class="text-3xl font-semibold text-white text-center">
+            Persyaratan pendaftaran
+          </h2>
+        </div>
+      </div>
+      <div class="container mx-auto flex flex-row md:flex-wrap items-center">
+        <h1 class="mx-5 bg-yellow-400 rounded-full">✔️</h1>
+        <div class="mx-5">
+          <h3 class="w-30 h-30 text-white">
+            Mahasiswa aktif Jurusan Sistem Informasi dan Sistem Komputer
+            Universitas Gunadarma angkatan 2021, 2022
+          </h3>
+        </div>
+      </div>
+      <div
+        class="container mx-auto flex flex-row md:flex-wrap items-center my-2"
+      >
+        <h1 class="mx-5 bg-yellow-400 rounded-full">✔️</h1>
+        <div class="mx-5">
+          <h3 class="w-30 h-30 text-white">
+            Minimal telah menjalani perkuliahan selama dua semester
+          </h3>
+        </div>
+      </div>
+      <div
+        class="container mx-auto flex flex-row md:flex-wrap items-center my-2"
+      >
+        <h1 class="mx-5 bg-yellow-400 rounded-full">✔️</h1>
+        <div class="mx-5">
+          <h3 class="w-30 h-30 text-white">Mampu bekerja sama dalam tim</h3>
+        </div>
+      </div>
+      <div
+        class="container mx-auto flex flex-row md:flex-wrap items-center my-2"
+      >
+        <h1 class="mx-5 bg-yellow-400 rounded-full">✔️</h1>
+        <div class="mx-5">
+          <h3 class="w-30 h-30 text-white">Sehat jasmani dan rohani</h3>
+        </div>
+      </div>
+      <div
+        class="container mx-auto flex flex-row md:flex-wrap items-center my-2"
+      >
+        <h1 class="mx-5 bg-yellow-400 rounded-full">✔️</h1>
+        <div class="mx-5">
+          <h3 class="w-30 h-30 text-white">
+            Berkomitmen dalam memberikan kontribusi
+          </h3>
+        </div>
+      </div>
+      <div
+        class="container mx-auto flex flex-row md:flex-wrap items-center my-2"
+      >
+        <h1 class="mx-5 bg-yellow-400 rounded-full">✔️</h1>
+        <div class="mx-5">
+          <h3 class="w-30 h-30 text-white">
+            Melengkapi berkas pendaftaran sesuai ketentuan
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const menuButton = document.querySelector(".md:hidden button");
+      const mobileMenu = document.querySelector(".md:hidden ul");
+
+      menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
