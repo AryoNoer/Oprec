@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body: {
-  *border: solid red;
+* {
+  border: 2px slid red; /* Menambahkan border 1px solid hitam ke semua elemen */
 }
