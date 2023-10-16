@@ -1243,6 +1243,12 @@ video {
   background-color: rgb(20 43 111 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
@@ -1268,6 +1274,10 @@ video {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-\[500px\] {
